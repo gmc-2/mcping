@@ -13,7 +13,7 @@ func main() {
 	var pingcolor string
 	pingtype := "java"
 	if len(os.Args) <= 1 {
-		fmt.Printf("usage: %s <host> (type)\n<>: required\n(): optional\nallowed types: java (default) and bedrock", filepath.Base(os.Args[0]))
+		fmt.Printf("usage: %s <host> (type)\n<>: required\n(): optional\nallowed types: java (default) and bedrock\n", filepath.Base(os.Args[0]))
 		os.Exit(0)
 	}
 	host := os.Args[1]
